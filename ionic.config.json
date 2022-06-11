@@ -1,0 +1,7 @@
+{
+  "name": "MinuSport",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
