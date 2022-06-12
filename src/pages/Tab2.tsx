@@ -1,4 +1,6 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import React from 'react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonItem, IonLabel, IonList, IonText, IonAvatar, IonThumbnail, IonButton, IonIcon, IonDatetime, IonSelect, IonSelectOption, IonToggle, IonInput, IonCheckbox, IonRange, IonNote } from '@ionic/react';
+import { closeCircle, home, star, navigate, informationCircle, checkmarkCircle, shuffle } from 'ionicons/icons';
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab2.css';
 
@@ -7,16 +9,59 @@ const Tab2: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 2</IonTitle>
+          <IonTitle>Keha andmete ajalugu</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Tab 2</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer name="Tab 2 page" />
+      <IonContent>
+
+
+        <IonItem detail href="Tab3">
+          <IonLabel>
+            02. juuni 2022
+          </IonLabel>
+        </IonItem>
+
+		<IonItem detail href="Tab3">
+          <IonLabel>
+            07. juuni 2022
+          </IonLabel>
+        </IonItem>
+
+		<IonItem detail href="Tab3">
+          <IonLabel>
+            09. juuni 2022
+          </IonLabel>
+        </IonItem>
+
+		<IonItem detail href="Tab3">
+          <IonLabel>
+            12. juuni 2022
+          </IonLabel>
+        </IonItem>
+
+		<IonItem detail href="Tab3">
+          <IonLabel>
+            20. juuni 2022
+          </IonLabel>
+        </IonItem>
+
+		<IonItem detail href="Tab3">
+          <IonLabel>
+            30. juuni 2022
+          </IonLabel>
+        </IonItem>
+
+		<IonItem detail href="Tab3">
+          <IonLabel>
+            15. juuli 2022
+          </IonLabel>
+        </IonItem>
+
+ 
+
+
+
+      
       </IonContent>
     </IonPage>
   );
