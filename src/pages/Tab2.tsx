@@ -15,43 +15,43 @@ const Tab2: React.FC = () => {
       <IonContent>
 
 
-        <IonItem detail href="Tab3">
+        <IonItem detail href="tab3">
           <IonLabel>
             02. juuni 2022
           </IonLabel>
         </IonItem>
 
-		<IonItem detail href="Tab3">
+		<IonItem detail href="tab3">
           <IonLabel>
             07. juuni 2022
           </IonLabel>
         </IonItem>
 
-		<IonItem detail href="Tab3">
+		<IonItem detail href="tab3">
           <IonLabel>
             09. juuni 2022
           </IonLabel>
         </IonItem>
 
-		<IonItem detail href="Tab3">
+		<IonItem detail href="tab3">
           <IonLabel>
             12. juuni 2022
           </IonLabel>
         </IonItem>
 
-		<IonItem detail href="Tab3">
+		<IonItem detail href="tab3">
           <IonLabel>
             20. juuni 2022
           </IonLabel>
         </IonItem>
 
-		<IonItem detail href="Tab3">
+		<IonItem detail href="tab3">
           <IonLabel>
             30. juuni 2022
           </IonLabel>
         </IonItem>
 
-		<IonItem detail href="Tab3">
+		<IonItem detail href="tab3">
           <IonLabel>
             15. juuli 2022
           </IonLabel>
